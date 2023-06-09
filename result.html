@@ -1,0 +1,10 @@
+<html>
+<body>
+  <h2>En Çok Geçen 3 Kelime:</h2>
+  <ul>
+    {% for word, count in word_count %}
+    <li>{{ word }}: {{ count }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

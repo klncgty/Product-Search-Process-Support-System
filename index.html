@@ -1,0 +1,12 @@
+<html>
+<body>
+  <h1>Amazon Ürün İnceleme Analizi</h1>
+  <form action="/analyze" method="POST">
+    <label for="url">Ürün Linki:</label><br>
+    <input type="text" id="url" name="url"><br>
+    <label for="rating_threshold">Kaç puan altındaki yorumları incelemek istersiniz?</label><br>
+    <input type="number" id="rating_threshold" name="rating_threshold" min="1" max="5"><br>
+    <input type="submit" value="Analiz Et">
+  </form>
+</body>
+</html>
